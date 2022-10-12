@@ -5,7 +5,7 @@
     "description": "resource list",
     "url": "",
     "author": "Angel Santoyo",
-    
+
 
     "socials": 
     [
@@ -24,23 +24,20 @@
 
 
     "resources": {
-        "Resource":
-         [
-            {
-                "title": "resource preview",
-                "description": "resource preview"
-            }
-         ],
         "Resource": [
             {
-                "title": "resource preview",
+                "title": "title",
                 "description": "resource preview"
             },
             {
-                "title": "resource preview",
+                "title": "title",
+                "description": "resource preview"
+            },
+            {
+                "title": "title",
                 "description": "resource preview"
             }
         ]     
-    }
+     }
     
 }
