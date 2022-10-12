@@ -1,6 +1,6 @@
 ---
 // Component Imports
-import MainHead from '../components/MainHead.astro';
+import Head from '../components/Head.astro';
 import Resources from '../components/Resources.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -10,20 +10,19 @@ import Footer from '../components/Footer.astro';
 	<div class = "wrapper">
 		<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" >
   <head>
-    <MainHead />
+    <Head />
   </head>
+
   <body>
     <main>
     <Resources />
     <Footer />
     </main>
   </body>
+
 </div>
 </html>
 
 <style>
-	.wrapper
-	{
-		
-	}
+	
 </style>
