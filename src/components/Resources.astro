@@ -4,41 +4,20 @@ const title = `Resources`;
 const {resources} = site;
 ---
 <section id="Resources">
-    <h2>{title}</h2>
+
     {Object.keys(resources).map((i) => (
-        <div class="timeline">
+        <div class="list">
            
             {resources[i].map(item => (
-                <div class="timeline-item">            
+                <div class="list-item">
+                                
                         <strong>{item.title}</strong>
-                        <div class="timeline-item--paragraph">{item.description}</div>
+                        <div class="list-item--desc">{item.description}</div>
                     </div>
                   
                <br>
             ))}
         </div>
     ))}
+
 </section>
-<style>
-.timeline strong.title {
-	 display: block;
-	 margin-bottom: 2rem;
-}
- .timeline-item {
-	 margin-bottom: 20px;
-}
- .timeline-item--checkbox svg {
-	 width: 16px;
-	 height: 16px;
-	 margin-right: 16px;
-	 fill: var(--color-orange);
-}
- .timeline-item--center {
-	 display: flex;
-	 align-items: center;
-}
- .timeline-item--paragraph {
-	 margin-left: 32px;
-}
- 
-</style>
