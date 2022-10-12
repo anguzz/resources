@@ -5,16 +5,16 @@ const {resources} = site;
 ---
 <section id="Resources">
     <h2>{title}</h2>
-    {Object.keys(resources).reverse().map((year, i) => (
+    {Object.keys(resources).map((i) => (
         <div class="timeline">
-            <strong class="title">{year}</strong>
-            {resources[year].map(item => (
-                <div class="timeline-item">
-                    
+           
+            {resources[i].map(item => (
+                <div class="timeline-item">            
                         <strong>{item.title}</strong>
+                        <div class="timeline-item--paragraph">{item.description}</div>
                     </div>
-                    <div class="timeline-item--paragraph">{item.description}</div>
-               
+                  
+               <br>
             ))}
         </div>
     ))}
