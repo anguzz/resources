@@ -2,47 +2,59 @@
     "resources": {
         "Resource": [
             {
+                "title": "Neet Code",
+                "link": "https://neetcode.io/practice",
+
+                "description": "Good place to start when leetcoding, watching the videos helps break down DSA"
+            },
+            {
+                "title": "Svelte repl tutorials",
+                "link": "https://svelte.dev/examples/hello-world",
+                "description": "All the basics when learning svelte, and you can play with the code in browser"
+            },
+            {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             },
             {
                 "title": "title",
-                "description": "resource preview"
-            },
-            {
-                "title": "title",
-                "description": "resource preview"
-            },
-            {
-                "title": "title",
+                "link": "google.com",
                 "description": "resource preview"
             }
         ]     
