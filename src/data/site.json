@@ -18,6 +18,16 @@
             "link": "https://github.com/Angus-1",
             "title": "GitHub",
             "icon": "github"
+        },
+        {
+            "link": "https://www.angelsantoyo.com/",
+            "title": "Portfolio",
+            "icon": "svelte"
+        }, 
+        {
+            "link": "mailto:santoyox714@gmail.com",
+            "title": "Gmail",
+            "icon": "google"
         }
     ],
 

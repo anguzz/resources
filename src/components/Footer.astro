@@ -2,14 +2,9 @@
 import site from "../data/site.json";
 const {socials, author} = site;
 ---
-<section id="footer">
-
-<footer id="footer">
-
-        <p>
-          <a href="https://www.angelsantoyo.com/">Angel Santoyo</a> <br />
-       </p>
-        <div class="socials">
+<hr>
+<div><small>Feel free to check out my other socials or contact me below </small>  </div>
+<footer id="footer">	
             {socials.map((social) => (
                 <div class="social-icon tooltip-container">
                     <span class="tooltip">{social.title}</span>
@@ -18,45 +13,44 @@ const {socials, author} = site;
                     </a>
                 </div>
             ))}
-        </div>
 </footer>
-</section>
 
 <style>
 footer {
 	 display: flex;
 	 flex-direction: row;
 	 align-items: center;
-	 margin-bottom: 10px;
-	 margin-top: 10px;
+	 margin-bottom: 30px;
 }
  footer h2 {
 	 margin-top: 0;
 }
- footer .footer-right {
-	 padding: 10px;
-	 background: #efefef;
-	 margin: 5px;
-	 margin-left: 3rem;
-	 max-width: 200px;
-}
+ 
  footer .social-icon {
-	 background: #212121;
 	 padding: 10px;
 	 margin: 5px;
 	 border-radius: 5px;
 	 display: inline-block;
+	 color:white;
 }
  footer .social-icon a {
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
 	 text-decoration: none;
+	 color:white;
+
+}
+footer .social-icon :hover {
+	 color:rgb(98, 211, 255);
+	 font-size:20px;
+
 }
  footer .social-icon a i {
 	 width: 24px;
 	 height: 24px;
-	 font-size: 1.5rem;
+	 font-size: 2rem;
+	 color:white;
 }
- 
+
 </style>
