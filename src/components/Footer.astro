@@ -1,0 +1,60 @@
+---
+import site from "../data/site.json";
+const {socials, author} = site;
+---
+<footer id="footer">
+    <div class="footer-left">
+        <p>
+            Feel free to check out my <a href="https://www.angelsantoyo.com/">portfolio</a>
+            or contact me below<br />
+       </p>
+        <div class="socials">
+            {socials.map((social) => (
+                <div class="social-icon tooltip-container">
+                    <span class="tooltip">{social.title}</span>
+                    <a href={social.link} target="blank">
+                        <i class={`devicon-${social.icon}-plain`}></i>
+                    </a>
+                </div>
+            ))}
+        </div>
+    </div>
+   
+</footer>
+<style>
+footer {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 margin-bottom: 100px;
+}
+ footer h2 {
+	 margin-top: 0;
+}
+ footer .footer-right {
+	 padding: 10px;
+	 background: #efefef;
+	 margin: 5px;
+	 margin-left: 3rem;
+	 max-width: 200px;
+}
+ footer .social-icon {
+	 background: #fff;
+	 padding: 10px;
+	 margin: 5px;
+	 border-radius: 5px;
+	 display: inline-block;
+}
+ footer .social-icon a {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 text-decoration: none;
+}
+ footer .social-icon a i {
+	 width: 24px;
+	 height: 24px;
+	 font-size: 1.5rem;
+}
+ 
+</style>

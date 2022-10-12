@@ -1,0 +1,44 @@
+---
+import site from "../data/site.json";
+const title = `Resources`;
+const {resources} = site;
+---
+<section id="Resources">
+    <h2>{title}</h2>
+    {Object.keys(resources).reverse().map((year, i) => (
+        <div class="timeline">
+            <strong class="title">{year}</strong>
+            {resources[year].map(item => (
+                <div class="timeline-item">
+                    
+                        <strong>{item.title}</strong>
+                    </div>
+                    <div class="timeline-item--paragraph">{item.description}</div>
+               
+            ))}
+        </div>
+    ))}
+</section>
+<style>
+.timeline strong.title {
+	 display: block;
+	 margin-bottom: 2rem;
+}
+ .timeline-item {
+	 margin-bottom: 20px;
+}
+ .timeline-item--checkbox svg {
+	 width: 16px;
+	 height: 16px;
+	 margin-right: 16px;
+	 fill: var(--color-orange);
+}
+ .timeline-item--center {
+	 display: flex;
+	 align-items: center;
+}
+ .timeline-item--paragraph {
+	 margin-left: 32px;
+}
+ 
+</style>

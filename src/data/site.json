@@ -1,0 +1,46 @@
+{
+
+
+    "title": "Resources  ",
+    "description": "resource list",
+    "url": "",
+    "author": "Angel Santoyo",
+    
+
+    "socials": 
+    [
+        {
+            "link": "https://www.linkedin.com/in/asantoyo/",
+            "title": "LinkedIn",
+            "icon": "linkedin"
+        },
+        {
+            "link": "https://github.com/Angus-1",
+            "title": "GitHub",
+            "icon": "github"
+        }
+    ],
+
+
+
+    "resources": {
+        "Resource":
+         [
+            {
+                "title": "resource preview",
+                "description": "resource preview"
+            }
+         ],
+        "Resource": [
+            {
+                "title": "resource preview",
+                "description": "resource preview"
+            },
+            {
+                "title": "resource preview",
+                "description": "resource preview"
+            }
+        ]     
+    }
+    
+}
