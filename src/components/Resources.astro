@@ -3,21 +3,18 @@ import site from "../data/site.json";
 const title = `Resources`;
 const {resources} = site;
 ---
-<section id="Resources">
+
    <h1>{title}</h1>
    
     {Object.keys(resources).map((i) => (
-        <div class="list">
-            {resources[i].map(item => (
-                <div class="list-item">
-                                
-                        <strong>{item.title}</strong>
-                        <div class="list-item--paragraph">{item.description}</div>
-                    </div>
+        <div class="list"> {resources[i].map(item => (
+                <div class="title"> <strong>{item.title} </strong>
+                        <div class="description">{item.description}</div>
+                        </div><br>
                   
-               <br>
+               
             ))}
         </div>
     ))}
 
-</section>
+
