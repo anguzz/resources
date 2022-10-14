@@ -13,9 +13,9 @@
                 "description": "All the basics when learning svelte, and you can play with the code in browser"
             },
             {
-                "title": "title",
-                "link": "google.com",
-                "description": "resource preview"
+                "title": "Js13k Games resources",
+                "link": "https://js13kgames.github.io/resources/",
+                "description": "Another resource list if intersted in making a js13k like game/entry"
             },
             {
                 "title": "title",
@@ -57,6 +57,7 @@
                 "link": "google.com",
                 "description": "resource preview"
             }
+            
         ]     
      }
 }
