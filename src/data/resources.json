@@ -26,6 +26,16 @@
                 "title": "Astro builds/templates",
                 "link": "https://astro.build/themes/",
                 "description": "Good place to start when looking at how others make astro sites."
+            },
+            {
+                "title": "Codepen",
+                "link": "https://codepen.io/",
+                "description": " Development environment for front-end designers and developers"
+            },
+            {
+                "title": "AcmCSUF wiki",
+                "link": "https://github.com/EthanThatOneKid/acmcsuf.com/wiki/Links",
+                "description": " List of resources provided by acmcsuf.com "
             }
         ]     
      }

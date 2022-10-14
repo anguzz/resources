@@ -1,5 +1,5 @@
 ---
-import site from "../data/site.json";
+import site from "../data/resources.json";
 const title = `Resources`;
 const {resources} = site;
 ---
@@ -8,7 +8,7 @@ const {resources} = site;
    
     {Object.keys(resources).map((i) => (
         <div class="list"> {resources[i].map(item => (
-                <div class="title"> <a href={item.link}> <strong>{item.title} </strong></a>
+                <div class="card"> <a href={item.link}> <strong>{item.title} </strong></a>
                         <div class="description">{item.description}</div>
                         </div><br>
                   
@@ -17,7 +17,18 @@ const {resources} = site;
         </div>
     ))}
 
-    <style>
+ <style>
+.card
+{
+    background-color:#171e29;
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
+    font-weight:500;
+    padding-left:10px;
+}
 
-        </style>
+
+
+</style>
 
