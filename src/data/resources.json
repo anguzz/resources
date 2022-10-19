@@ -41,7 +41,13 @@
                 "title": "AcmCSUF wiki",
                 "link": "https://github.com/EthanThatOneKid/acmcsuf.com/wiki/Links",
                 "description": " List of resources provided by acmcsuf.com "
+            },
+            {
+                "title": "Vercel",
+                "link": "https://vercel.com/",
+                "description": "Simple way to deploy frontend web apps"
             }
+            
         ]     
      }
 }
