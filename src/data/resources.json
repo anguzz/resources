@@ -46,7 +46,17 @@
                 "title": "Vercel",
                 "link": "https://vercel.com/",
                 "description": "Simple way to deploy frontend web apps"
-            }           
+            },
+            {
+                "title": "How the web works",
+                "link": "https://github.com/vasanthk/how-web-works",
+                "description": "Article that highlights what happens behind the scenes when you perform a google search on the internet."
+            },
+            {
+                "title": "Networking: a complete guide",
+                "link": "https://www.ibm.com/cloud/learn/networking-a-complete-guide",
+                "description": "Brief overview on computer networking by IBM."
+            }
         ]     
      }
 }
