@@ -3,7 +3,7 @@ import site from "../data/resources.json";
 const title = `Resources`;
 const {resources} = site;
 ---
-
+<a class="header" href="https://angelsantoyo.com/"> made with 💙 by angel</a>
    <h1>{title}</h1>
    
     {Object.keys(resources).map((i) => (
@@ -29,6 +29,7 @@ const {resources} = site;
 }
 a:link{
     color:rgb(163, 232, 253);
+    text-decoration: none;
 }
 a:visited{
     color:rgb(61, 123, 204);
@@ -36,8 +37,10 @@ a:visited{
 a:hover{
     color:rgb(82, 199, 160);
 }
-
-
+.header{
+   font-size:20px;
+   font-weight:500; 
+}
 
 </style>
 
