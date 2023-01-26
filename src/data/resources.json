@@ -56,6 +56,11 @@
                 "title": "Networking: a complete guide",
                 "link": "https://www.ibm.com/cloud/learn/networking-a-complete-guide",
                 "description": "Brief overview on computer networking by IBM."
+            },
+            {
+                "title": "Real world bug hunting: A field guide to web hacking",
+                "link": "https://digtvbg.com/files/books-for-hacking/Real-World%20Bug%20Hunting%20-%20A%20Field%20Guide%20to%20Web%20Hacking%20by%20Peter%20Yaworski.pdf",
+                "description": "Primer on web security vulnerabilities, filled with examples and stories. "
             }
         ]     
      }
