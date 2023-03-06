@@ -61,6 +61,11 @@
                 "title": "Real world bug hunting: A field guide to web hacking",
                 "link": "https://digtvbg.com/files/books-for-hacking/Real-World%20Bug%20Hunting%20-%20A%20Field%20Guide%20to%20Web%20Hacking%20by%20Peter%20Yaworski.pdf",
                 "description": "Primer on web security vulnerabilities, filled with examples and stories. "
+            },
+            {
+                "title": "Port swigger web security labs",
+                "link": "https://portswigger.net/web-security/all-labs",
+                "description": "Great and fun resource to learn about different web vulnerabilities with labs and examples."
             }
         ]     
      }
