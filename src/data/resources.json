@@ -66,6 +66,11 @@
                 "title": "Port swigger web security labs",
                 "link": "https://portswigger.net/web-security/all-labs",
                 "description": "Great and fun resource to learn about different web vulnerabilities with labs and examples."
+            },
+            {
+                "title": "HTTPie",
+                "link": "https://httpie.io/app",
+                "description": "Makes testing APIs simple by allowing you to do so in browser"
             }
         ]     
      }
