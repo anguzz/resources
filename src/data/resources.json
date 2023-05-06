@@ -71,8 +71,8 @@
                 "title": "HTTPie",
                 "link": "https://httpie.io/app",
                 "description": "Makes testing APIs simple by allowing you to do so in browser"
-            }
-                  {
+            },
+            {
                 "title": "PayloadsAllTheThings",
                 "link": "https://github.com/swisskyrepo/PayloadsAllTheThings",
                 "description": "Great github repo of payloads when doing CTFs"
