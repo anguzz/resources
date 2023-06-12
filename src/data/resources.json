@@ -85,6 +85,10 @@
                 "title": "Ez gif",
                 "link": "https://ezgif.com",
                 "description": "Free and simple resource for quick photo cropping/editing online"
+            },{
+                "title": "Duo documentation",
+                "link": "https://duo.com/docs",
+                "description": "Official documentation on how duo is setup and used."
             }
         ]     
      }
