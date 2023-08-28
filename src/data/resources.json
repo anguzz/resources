@@ -89,6 +89,10 @@
                 "title": "The Art of Software Security Assessment",
                 "link": "https://github.com/rng70/Hacking-Resources/blob/master/Exploiting%20Books/The%20Art%20of%20Software%20Security%20Assessment%20-%20Identifying%20and%20Preventing%20Software%20Vulnerabilities.pdf",
                 "description": "Quicklink for a book I've been reading on Software vulnerabilities."
+            },{
+                "title": "Can I Use...",
+                "link": "https://caniuse.com/",
+                "description": " 'Can I use' provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers."
             }
         ]     
      }
