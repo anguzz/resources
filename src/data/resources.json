@@ -90,6 +90,11 @@
                 "title": "Security Roadmap",
                 "link": "https://pauljerimy.com/security-certification-roadmap/",
                 "description": "A comprehensive guide outlining the certifications available based on your specific security focus, providing a clear roadmap for visualization."
+            },
+            {
+                "title": "Cyberchef",
+                "link": "https://gchq.github.io/CyberChef/",
+                "description": "web app for encryption, encoding, compression and data analysis"
             }
         ]     
      }
