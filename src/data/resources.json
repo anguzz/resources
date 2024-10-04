@@ -95,7 +95,37 @@
                 "title": "Cyberchef",
                 "link": "https://gchq.github.io/CyberChef/",
                 "description": "web app for encryption, encoding, compression and data analysis"
+            },
+             {
+                "title": "Ventoy",
+                "link": "https://sourceforge.net/projects/ventoy/",
+                "description": "good bc can have multiple isos on one disk"
+            },
+            {
+                "title": "Hiren’s BootCD PE",
+                "link": "https://www.hirensbootcd.org/",
+                "description": "multipurpose live boot usb toolkit"
+            },
+            {
+                "title": "Medicat",
+                "link": "https://medicatusb.com/",
+                "description": "like hirens but with more"
+            },
+            {
+                "title": "Clonezilla",
+                "link": "https://clonezilla.org/",
+                "description": "clonezilla is a partition and disk imaging/cloning program, does  system deployment, bare metal backup and recovery"
+            },
+             {
+                "title": "SuperGrub2",
+                "link": "https://clonezilla.org/",
+                "description": "live cd that helps you to boot into most any Operating System (OS) even if you cannot boot into it by normal means"
+            }, {
+                "title": "Portable Apps",
+                "link": "https://portableapps.com/",
+                "description": "personal apps on your work PC"
             }
+            
         ]     
      }
 }
