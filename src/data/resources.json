@@ -124,6 +124,16 @@
                 "title": "Portable Apps",
                 "link": "https://portableapps.com/",
                 "description": "personal apps on your work PC"
+            },
+            {
+                "title": "Master packager",
+                "link": "https://www.masterpackager.com/",
+                "description": "Free packaging application to repackage MSI files with custom properties"
+            },
+            {
+                "title": "Orca exe",
+                "link": "https://learn.microsoft.com/en-us/windows/win32/msi/orca-exe",
+                "description": " Database table editor for creating and editing Windows Installer packages and merge modules"
             }
             
         ]     
