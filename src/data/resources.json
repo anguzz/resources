@@ -18,11 +18,6 @@
                 "description": "Another resource list if intersted in making a js13k like games/entries"
             },   
             {
-                "title": "Astro builds/templates",
-                "link": "https://astro.build/themes/",
-                "description": "Good place to start when looking at how others make astro sites."
-            },
-            {
                 "title": "Codepen",
                 "link": "https://codepen.io/",
                 "description": " Development environment for front-end designers and developers"
