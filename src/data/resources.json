@@ -129,6 +129,11 @@
                 "title": "Orca exe",
                 "link": "https://learn.microsoft.com/en-us/windows/win32/msi/orca-exe",
                 "description": " Database table editor for creating and editing Windows Installer packages and merge modules"
+            },
+            {
+                "title": "Revo uninstaller",
+                "link": "https://www.revouninstaller.com/",
+                "description": "Helpful Uninstall tool that removes files/registries of an installed application"
             }
             
         ]     
